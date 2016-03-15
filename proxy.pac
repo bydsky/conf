@@ -2973,6 +2973,11 @@ function FindProxyForURL(url, host) {
   if(/gov\.tw/i.test(url)) return PROXY;
   if(/phaser\.io/i.test(url)) return PROXY;
   if(/www.photonstorm.com/i.test(url)) return PROXY;
+  if(/github.com/i.test(url)) return PROXY;
+  if(/cool18.com/i.test(url)) return PROXY;
+  if(/stackoverflow.com/i.test(url)) return PROXY;
+  if(/uploadhouse.com/i.test(url)) return PROXY;
+  if(/slideshare.net/i.test(url)) return PROXY;
   if(/174\.142\.105\.153/i.test(url)) return PROXY;
   if(/69\.65\.19\.160/i.test(url)) return PROXY;
   //-- END OF AUTO-GENERATED RULES
